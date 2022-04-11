@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background: black;
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+
+
+body{
+    background-color: rgb(246, 231, 231);
+}
+
+
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.logoPanati{
+    position: absolute;
+    border: 4px solid black;
+    border-radius: 1000px;
+    height: 120px;
+    width: 120px;
+    float: left;
+    padding: 8px;
+}
+
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    margin-left: 75px;
+    padding: 25px 0px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 3px;
+    background: rgb(68, 67, 67);
+    transition: .5s;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(190, 77, 238);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color: blueviolet;}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image:url("../IMG/WhatsApp\ Image\ 2022-03-23\ at\ 22.29.14.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero h1{
+    color: white;
+}
+
+
+#compra-ya .container{
+    text-align: center;
+    padding: 400px 5px;
+    
+}
+
+
+#nuestros-desayunos{
+    background-color: rgb(37, 36, 36);
+    color: black;
+    text-align: center;
+}
+
+#nuestros-desayunos .container{
+    padding: 100px 0px;
+}
+
+#nuestros-desayunos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    color: aliceblue;
+}
+
+#nuestros-desayunos p{
+    display: none;
+}
+
+#nuestros-desayunos .carta1{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#nuestros-desayunos .carta2{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#nuestros-desayunos .carta3{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta1{
+    background-image: url("../IMG/WhatsApp\ Image\ 2022-03-23\ at\ 22.12.09.jpeg");
+}
+
+.carta2{
+    background-image: url("../IMG/WhatsApp\ Image\ 2022-03-23\ at\ 22.12.10.jpeg");
+}
+
+.carta3{
+    background-image: url("../IMG/WhatsApp\ Image\ 2022-03-23\ at\ 22.12.06.jpeg");
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 30vh;
+}
+
+#final h2{
+    font-size: 5em;
+}
+
+#final button{
+    font-size: 2em;
+}
+
+
+footer p{
+    margin: 0px;
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.texto{
+    font-size: 30px;
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat (4, auto);
+}
+
+
+
+.contenedor > div, 
+.contenedor .sobrenosotros,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footersn{
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.contenedor .sobrenosotros{
+    background: rgb(210, 61, 173);
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.contenedor .contenido{
+    grid-column: span 2;
+}
+
+.contenedor .sidebar{
+    grid-column: 3/4;
+    background: orange;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 2;
+}
+
+.contenedor .widget-1,
+.contenedor .widget-2 {
+    background: rgb(144, 79, 79);
+    color: aliceblue;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contender .footersn{
+    background: rgb(68, 68, 156);
+
+}
+
+@media (max-width: 850px) {
+   
+    nav ul li{
+        display: inline-block;
+        margin: 5px;
+        }
+    }
+
+    .contenedor .sobrenosotros{
+        grid-area: sobrenosotros ;
+    }
+
+    .contenedor .contenido{
+        grid-area: contenido;
+    }
+
+    .contenedor .sidebar{
+        grid-area: sidebar;
+
+    }
+
+    .contenedor .widget-1{
+        grid-area: widget-1;
+    }
+
+    .contenedor .widget-2{
+        grid-area: widget-2;
+    }
+
+    .contenedor .footersn{
+        grid-area: footer;
+        text-align: center;
+    }
+    .contenedor {
+        grid-template-areas: "sobrenosotros sobrenosotros sobrenosotros"
+                            "contenido contenido contenido"
+                            "sidebar sidebar sidebar"
+                            "widget-1 widget-1 widget-2"
+                            "footer footer footer";
+    }
