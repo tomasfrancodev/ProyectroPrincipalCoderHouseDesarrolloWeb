@@ -49,6 +49,10 @@ nav ul li{
     line-height: 80px;
 }
 
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
 nav ul li a{
     color: aliceblue;
     font-size: 20px;
@@ -100,8 +104,7 @@ button{
 
 #compra-ya .container{
     text-align: center;
-    padding: 400px 5px;
-    
+    padding: 400px 5px; 
 }
 
 
