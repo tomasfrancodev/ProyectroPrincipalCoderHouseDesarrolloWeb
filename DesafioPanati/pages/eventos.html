@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     
+    <!--link bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <!--link css-->
     <link rel="stylesheet" a href="../css/main.css">
 
@@ -31,70 +35,64 @@
         <ul>
             <li>
 
-                <a href="../index.html">
+                <a href="../index.html" class="text-decoration-none">
                     ir a home
             </a>
             </li> 
             <li>
 
-                <a href="../pages/productos.html">
+                <a href="../pages/productos.html" class="text-decoration-none">
                     Productos
                 </a> 
             </li>
             <li>
 
-                 <a href="../pages/sobrenosotros.html">
+                 <a href="../pages/sobrenosotros.html" class="text-decoration-none">
                     Sobre Nosotros
                 </a>
 
             </li>
             <li>
-                <a href="../pages/comocomprar.html">
+                <a href="../pages/comocomprar.html" class="text-decoration-none">
                     Como Comprar
                 </a>
             </li>
         </ul>
     </nav>
     </div>
-
     </header>
 
     <main>
-        <section id="nuestros-desayunos">
-            <div class="container">
-                <h2>Nuestros Eventos</h2>
-            <div class="desayunos">
-                <div class="carta1">
-                    <h3>Fiestas</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, laudantium tenetur est, obcaecati nisi nihil libero, aliquid vitae recusandae sapiente optio nam consequuntur a sequi? Repellat quidem dolor provident. Doloribus.
-                        </p>
-                    <button>+ info</button>
-                </div>
-            <div class="carta2">
-                    <h3>Casamientos</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptas vel sed inventore nesciunt, a ipsa. Ipsum natus adipisci pariatur est nihil temporibus laudantium, possimus optio saepe sit itaque repellendus.
-                        </p>
-                    <button>+ info</button>
-            </div>
-            <div class="carta3">
-                    <h3>Cumpleaños</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aspernatur ullam. Dolor, facilis quod, dolore ex necessitatibus voluptatem nihil consectetur quaerat vel, recusandae alias. Fuga voluptatibus maxime magni ratione sapiente.
-                        </p>
-                    <button>+ info</button>
-            </div>
-            </div>
+        <div>
+            <h1 class="eventos">Eventos</h1>
         </div>
-        </section>
-
-
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../IMG/birthday-2338813_960_720.jpg" class="d-block w-100" alt="Cumpleaños">
+              </div>
+              <div class="carousel-item">
+                <img src="../IMG/play-5134828_960_720.jpg" class="d-block w-100" alt="Infantiles">
+              </div>
+              <div class="carousel-item">
+                <img src="../IMG/wedding-4660419_960_720.jpg" class="d-block w-100" alt="Bodas">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
-
-
-    
-
-
-
-    
 
     <footer>
         <div class="container">
@@ -102,5 +100,7 @@
         </div>
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
